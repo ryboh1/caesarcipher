@@ -20,7 +20,7 @@ exports.CaesarCipher = function CaesarCipher(readline)
     };
 
 
-    this.cipherText = (thePlainText, theCipherKey, resolve) =>{
+    this.cipherText = (thePlainText, theCipherKey, theResolve) =>{
         let cipheredText = "";        
         let lowerPlainText = thePlainText.toLowerCase();
         let movingSpaces = theCipherKey % 26;
@@ -41,7 +41,7 @@ exports.CaesarCipher = function CaesarCipher(readline)
         
         };
 
-        resolve(cipheredText);
+        theResolve(cipheredText);
 
     };
 
