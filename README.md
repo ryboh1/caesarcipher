@@ -10,7 +10,7 @@ All you will need is Node JS and a Command Line
 
 Enter onto your command line
 
-```git clone https://github.com/ryboh1/caesarcypher```
+```git clone https://github.com/ryboh1/caesarcipher```
 
 ## How to use
 
