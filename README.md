@@ -1,4 +1,4 @@
-# caesarcypher
+# caesarcipher
 A Command Line Caesar Cipher
 
 ## Getting Started
@@ -15,7 +15,7 @@ Enter onto your command line
 ## How to use
 
 ### Instructions
-- Via the Cmd Line, locate caesarcypher and then go into the directory
+- Via the Cmd Line, locate caesarcipher and then go into the directory
 and run main.js with node by typing in. 
 ``` node main.js```
 
