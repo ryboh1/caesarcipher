@@ -13,7 +13,7 @@ Enter onto your command line
 ```git clone https://github.com/ryboh1/caesarcypher```
  
 ## Built With
--Node JS
+- Node JS
 
 ## Authors
 
