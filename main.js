@@ -1,7 +1,7 @@
 const readline = require("readline");
 const {CaesarCipher: CaesarCipher} = require("./helpers");
 
-let plainText,cipherNumber;
+let plainText,cipherKey;
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -21,18 +21,18 @@ new Promise((resolve) =>{
 
     return new Promise((resolve) => {
         let warningMessage = "Make sure to only enter Numerical characters";
-        theCipher.prompt("Enter a Number: \n", /^[0-9]+$/, resolve,warningMessage );
+        theCipher.prompt("Enter a Key: \n", /^[0-9]+$/, resolve,warningMessage );
 
     })
 })
 
 .then((resolve)=>{
-    cipherNumber = resolve;
+    cipherKey = resolve;
 
     rl.close();
 
     return new Promise((resolve) => {
-        theCipher.cipherText(plainText, cipherNumber, resolve);
+        theCipher.cipherText(plainText, cipherKey, resolve);
     });
 })
 
